@@ -142,7 +142,7 @@ function CreateWorkspace(config)
 		filter("system:linux")
 			cdialect("GNU11")
 			cppdialect("GNU++17")
-			staticruntime("On")
+			staticruntime("Off")
 			defaultplatform("x86")
 
 		filter("system:macosx")
